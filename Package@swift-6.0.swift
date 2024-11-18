@@ -4,7 +4,7 @@ import CompilerPluginSupport
 import PackageDescription
 
 let package = Package(
-  name: "swift-composable-architecture",
+  name: "swift-composable-architecture-new",
   platforms: [
     .iOS(.v13),
     .macOS(.v10_15),
@@ -13,7 +13,7 @@ let package = Package(
   ],
   products: [
     .library(
-      name: "ComposableArchitecture",
+      name: "ComposableArchitectureNew",
       targets: ["ComposableArchitecture"]
     )
   ],
